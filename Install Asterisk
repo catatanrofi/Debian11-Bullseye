@@ -5,6 +5,14 @@ $ apt-get upgrade -y
 $ apt-get install asterisk -y
 • Kemudian kalian konfigurasi untuk SIP nya
 $ nano /etc/asterisk/sip.conf
-• Ke barisan paling bawah (kalau mau cepat tekan tombol pgdn)
+• Ke barisan paling bawah
 • Kemudian ketikan perintah dibawah ini
+[general]
+context=default
+allowoverlap=no
+bindaddr=0.0.0.0
+srvlookup=yes
+videosupport=yes
+
+
 
