@@ -1,6 +1,4 @@
-[STEP-1] Masuk ke super user dengan mengetikan perintah
 $ su
-• Masukan password root
 $ apt-get update -y
 $ apt-get upgrade -y
 $ apt-get install asterisk -y
@@ -45,8 +43,3 @@ exten => 001,2,HangUp()
 
 • Kemudian kalian restart asterisk
 $ systemctl restart asterisk
-
-
-
-
-
