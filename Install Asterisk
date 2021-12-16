@@ -29,5 +29,23 @@ allow=h264
 allow=pv8
 videosupport=yes
 
+• Kemudian konfigurasikan untuk extension
+$ nano /etc/asterisk/extensions.conf
+• Kebarisan paling bawah
+• Ketikan perintah dibawah ini
+
+[general]
+static=yes
+writeprotect=no
+clearglobalvars=no
+
+exten => 001,1,Dial(SIP/001)
+exten => 001,2,HangUp()
+
+• Kemudian kalian restart asterisk
+$ systemctl restart asterisk
+
+
+
 
 
