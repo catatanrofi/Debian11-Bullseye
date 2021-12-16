@@ -1,3 +1,4 @@
+[STEP-1] Masuk ke super user dengan mengetikan perintah
 $ su
 • Masukan password root
 $ apt-get update -y
