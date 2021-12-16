@@ -4,5 +4,7 @@ $ apt-get install asterisk -y
 
 Kemudian kalian konfigurasi untuk SIP nya
 
-nano /etc/asterisk/sip.conf
+$ nano /etc/asterisk/sip.conf
+
+Ke barisan paling bawah (kalau mau cepat tejan tombol pgdn)
 
